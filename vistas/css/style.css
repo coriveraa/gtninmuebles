@@ -25,19 +25,19 @@ padding: 0px;
 /* #inicio{
     margin-top: 15px;
 } */
-
+/* 
 #servicios{
      padding-top: 15px; 
      margin-top: 5px; 
       background: #fff;   
-}
+} */
 
-#nosotros{
+/* #nosotros{
     
     padding-top: 15px; 
     margin-top: 5px;    
-/*    background: #9ba8af;*/
-}
+   background: #9ba8af;
+} */
 
 
 
@@ -112,7 +112,7 @@ card text-center{
 
 
 /* Footer */
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/* @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
     padding: 60px 0;
 }
@@ -122,7 +122,7 @@ section .section-title {
     color: #349ad0;
     margin-bottom: 50px;
     text-transform: uppercase;
-}
+} */
 /* #footer {
     background: #f2f4f5 !important;
 }

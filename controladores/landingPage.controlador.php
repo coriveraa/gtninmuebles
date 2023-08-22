@@ -280,7 +280,21 @@ Class ControladorLandingPage{
 
 	}
 
+			/*=============================================
+	Traer cartas 
+	=============================================*/
+   
+	static public function ctrMostrarCartas(){
 
+		$tabla = "cartas";
+
+		$respuesta = ModeloLandingPage::ctrMostrarCartas($tabla);
+
+		return $respuesta;
+
+	}
+
+ 
 }
 
 

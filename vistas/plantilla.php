@@ -9,6 +9,7 @@ $articulos = ControladorLandingPage::ctrMostrarConInnerJoin(0,3, null, null);
 $totalArticulos = ControladorLandingPage::ctrMostrarTotalArticulos(null,null);
 $totalPaginas = ceil (count($totalArticulos)/3);
 $inmuebles = ControladorLandingPage::ctrMostrarPropiedades();
+$cartas = ControladorLandingPage:: ctrMostrarCartas();
 // echo '<pre>'; print_r($inmuebles); echo '</pre>';
 // ?>
 
