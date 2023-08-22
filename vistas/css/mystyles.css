@@ -1,0 +1,277 @@
+/*
+****************************
+Variables Globales
+****************************
+*/
+
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #410404;
+    --secundario: #77211a;
+    --gris: #757575;
+    --grisClaro: #DFE9F3;
+}
+
+html{
+    background-color: var(--blanco)!important;
+    font-size: 62.5%;
+    box-sizing: border-box; 
+   /* Hack para Box Model **/
+    padding: 0px;;
+ 
+} 
+/*
+****************************
+Color del fondo de la pagina
+*****************************/
+body{
+    background-color: #ffffff!important;
+    padding: 0px;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif,  Open Sans;
+    font-size: 1.6rem;
+    /*font-size: 20px;*/ /* 1rem = 10px */
+    line-height: 1.42857;
+    height: 35rem;
+    padding-top: 30px;
+    /* margin: 30px; */
+    color: var(--blanco);
+    
+   
+}
+
+
+h1,h3, p{ 
+   color: var(--primario);
+}
+
+
+
+/*
+****************************
+Color de menu
+****************************
+*/
+
+.bg_nav {
+    background-color: #410404!important;
+
+/* -webkit-box-shadow: 1px 3px 59px -3px rgba(20,63,106,1);
+-moz-box-shadow: 1px 3px 59px -3px rgba(20,63,106,1);
+box-shadow: 1px 3px 59px -3px rgba(20,63,106,1); */
+}
+nav a {
+    color: var(--blanco);
+    font-size: 1.6rem;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+/*
+**********************************************
+ Home
+**********************************************
+*/
+#home { font-family: 'Roboto', sans-serif; background: url("../img/principal.jpg") #410404 no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 340px; padding: 50px 0 0 0; color: #ffffff !important; }
+.home-content { padding-top: 100px; width: 100%; }
+/* #home .home-content {font-family: 'PT Sans', sans-serif; text-align: left; font-size: 40px; font-weight: 300; color: #143f6a; } */
+#home .home-content h1 , h2{
+     color: var(--secundario);
+     font-size: 4rem;
+        /* font-size: 40px;
+        background: linear-gradient(#06070a, #1c2aec);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        animation: text 3s linear infinite;
+
+    
+     @keyframes text {
+        0% {
+            filter: hue-rotate(0deg);
+        }
+        100% {
+            filter: hue-rotate(5deg);
+        }
+    }  */
+    }
+#home .home-content p { margin-top: 40px; }
+#home .home-content .btn { text-transform: uppercase; margin: 0 5px 0 5px; }
+/*
+**********************************************
+ Home
+**********************************************
+*/
+
+/*
+**********************************************
+ cartas
+**********************************************
+*/
+
+
+#inicio{
+    color: var(--primario);
+}
+
+
+
+
+
+.jumbotron{
+    background-color: #ffff !important;
+    margin-top: 30px; 
+    /* margin-bottom: 0px; */
+    padding: 15px;
+}
+
+/* #pventa{
+
+    margin-top: 100px; 
+    margin-bottom: 0px;
+    padding: 15px;
+
+} */
+
+.banner{
+
+ background-image: url("../img/");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ width: 100%;
+  height: 600px; 
+ position: relative;
+
+}
+
+
+.carruseluno{
+    
+    /* background-image: url("../img/banners/cyberpower.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    width: 100%;
+    /* height: 550px; */
+    position: relative;
+  
+ 
+}
+
+.carruseldos{
+    
+    /* background-image: url("../img/banners/perfectchoice.png"); */
+    background-color: darkcyan;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    width: 100%;
+    /* height: 550px; */
+    position: relative;
+  
+ 
+}
+
+.carruseltres{
+    
+    /* background-image: url("../img/banners/dell.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    width: 100%;
+    /* height: 550px; */
+    position: relative;
+  
+ 
+}
+
+footer{
+
+ background-color: #410404!important;
+ color: var(--blanco);
+ margin-top: 15px;
+ padding: 20px;
+ height: 150px;
+ width: 100%;
+}
+
+footer h5, li {
+    font-size: 1.6rem;
+
+}
+
+
+
+
+
+#newsletter-section { font-family: 'PT Sans', sans-serif; background: url("../img/1451_GTN_INMUEBLES_logo_3.jpg") #ffffff no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; color: #ffffff; padding: 50px 5px 70px 5px; }
+.newsletter-form { width: 70%; margin: 0 auto; padding-top: 30px; }
+#newsletter-section label { font-size: 1.5em; font-weight: 300; }
+#newsletter-section .form-control { color: #ffffff; height: 44px; font-size: 1.2em; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; background-color: rgba(255,255,255,0); border: 2px solid #ffffff; transition: all 0.2s ease-in-out 0.2s; -ms-transition: all 0.2s ease-in-out 0.2s; -moz-transition: all 0.2s ease-in-out 0.2s; -webkit-transition: all 0.2s ease-in-out 0.2s; -o-transition: all 0.2s ease-in-out 0.2s; } 
+#newsletter-section .form-control:focus { background-color: rgba(255,255,255,0); border: 2px solid #ffffff; box-shadow: none; }
+ #newsletter-section .btn { height: 44px; margin-top: 35px; } 
+.alert-success { text-align: center; }
+.alert-danger { text-align: center; }
+#newsletter-section p{
+    text-align: left;
+    width: 50%; 
+    }
+    
+
+/*
+**********************************************
+08 Contact
+**********************************************
+*/
+#contact-section { padding: 90px 5px 50px 5px; color: #1f3752; font-family: 'PT Sans', sans-serif; background: url("../img/bannertres.jpg") #3f3d49 no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#contact-section h3 { padding-bottom: 50px; }
+.contact-form-box { width: 50%; margin: 0 auto; padding: 0 10px 10px 10px; border-top-left-radius: 8px; border-top-right-radius: 8px; }
+#contact-section label { font-size: 1.5em; font-weight: 300; }
+#contact-section .form-control { color: #1f3752; height: 44px; font-size: 1.2em; background-color: rgba(255,255,255,0); border: 2px solid #1f3752; transition: all 0.2s ease-in-out 0.2s; -ms-transition: all 0.2s ease-in-out 0.2s; -moz-transition: all 0.2s ease-in-out 0.2s; -webkit-transition: all 0.2s ease-in-out 0.2s; -o-transition: all 0.2s ease-in-out 0.2s; }
+#contact-section .form-control:focus { background-color: rgba(255,255,255,0); border: 2px solid #1f3752; box-shadow: none; }
+#contact-section textarea { resize: none; padding: 12px; height: 130px !important; }
+#contact-section .btn { margin-top: 20px; }
+
+/*
+**********************************************
+
+
+**********************************************
+07 Pricing table
+**********************************************
+*/
+#precios { padding: 90px 5px 90px 5px; font-family: 'PT Sans', sans-serif; }
+/* .plans { padding-top: 20px; } */
+.price-table { padding-bottom: 20px; }
+.price-bg { height: 50px; color: #ffffff;text-align: center; background-color: #143f6a; }
+.price-bg-popular { height: 150px; }
+.box-plan { background: #ffffff; /*padding: 0 5px 5px 5px;*/ position: relative; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }
+.box-plan h3 { color: #ffffff;}
+.box-plan .plan-title { padding: 8px 5px 5px; text-align: center; color: #ffffff; margin: 5px 0 5px 0; -moz-border-top-right-radius: 8px; -webkit-border-top-right-radius: 8px; border-top-right-radius: 8px; -moz-border-top-left-radius: 8px; -webkit-border-top-left-radius: 8px; border-top-left-radius: 8px; }
+.box-plan .plan-title-popular { padding: 8px 15px 15px; text-align: center; color: #ffffff; margin: 5px 0 5px 0; }
+.box-plan .price { min-height: 50px; position: relative; font-size: 60px; line-height: 80px; text-align: center; font-weight: bold; padding: 20px 15px 0; color: #ffffff; }
+.box-plan .price .type { font-size: 16px; margin-top: -30px; }
+.box-plan .descr { color: #333333; margin-top: 10px; padding: 20px 15px; }
+.box-plan .descr p { text-align: center; font-size: 1.2em; }
+.box-plan .plan-btn { min-height: 50px; text-align: center; text-transform: uppercase; font-weight: bold; font-size: 18px; padding: 0 15px; }
+
+/*
+
+
+/* blog  */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
