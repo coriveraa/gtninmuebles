@@ -19,7 +19,7 @@
   <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
   <path d="M21 21l-6 -6" />
 </svg></span>  -->
-                                                      <input type="text" class="form-control buscador" placeholder="" value="">
+                                                      <input type="text" class="form-control form-control-lg buscador" placeholder="" value="">
                                                       <div class="input-group-append">
                                                             <span class="input-group-text bg-ligth border-0" style="cursor:pointer">
 

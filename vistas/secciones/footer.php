@@ -16,7 +16,7 @@
     foreach ($redesSociales as $key => $value){
 
          echo'
-               <li class="ftco-animate text-primary"><a href="'.$value["url"].'"><span class="'.$value["icono"].'"></span></a>'.$value["red"].'</li>';
+               <li class="ftco-animate"><a href="'.$value["url"].'"><span class="'.$value["icono"].'"></span></a>'.$value["red"].'</li>';
           }
    ?>
          

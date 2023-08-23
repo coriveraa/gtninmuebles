@@ -52,12 +52,17 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        <h2 class="featurette-heading">Tu Hogar Ideal Hoy <span class="text-muted">Haz Realidad la Compra de tu Casa</span></h2>
+        <p class="lead">Nuestros expertos están listos para ayudarte en cada paso del proceso de compra. Desde la oferta hasta el cierre, te brindaremos el apoyo que necesitas para asegurarte de que este emocionante cambio en tu vida sea suave y exitoso. </p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home-plus" width="500" height="500" viewBox="0 0 24 24" stroke-width="1.5" stroke="#410404" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M19 12h2l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h5.5" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2" />
+  <path d="M16 19h6" />
+  <path d="M19 16v6" />
+</svg>
       </div>
     </div>
 
@@ -65,12 +70,17 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        <h2 class="featurette-heading"> Invierte en Tu Futuro con Nosotros <span class="text-muted">Vende tu Propiedad con Éxito</span></h2>
+        <p class="lead">Nuestro equipo de expertos inmobiliarios está aquí para ayudarte en cada paso del camino. Desde la valoración precisa hasta la comercialización estratégica, trabajaremos contigo para maximizar el valor de tu propiedad. ¡Comienza ahora y vende con confianza!</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home-dollar" width="500" height="500" viewBox="0 0 24 24" stroke-width="1.5" stroke="#410404" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M19 10l-7 -7l-9 9h2v7a2 2 0 0 0 2 2h6" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2c.387 0 .748 .11 1.054 .3" />
+  <path d="M21 15h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" />
+  <path d="M19 21v1m0 -8v1" />
+</svg>
       </div>
     </div>
 
@@ -78,12 +88,16 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        <h2 class="featurette-heading">¿Quieres vender tu propiedad sin estrés ni complicaciones?  <span class="text-muted">De Propietario a Vendedor Exitoso</span></h2>
+        <p class="lead">Estamos aquí para ser tu socio confiable en este emocionante viaje. Desde la presentación atractiva hasta las negociaciones exitosas, estamos comprometidos a lograr tus objetivos de venta. No esperes más, ¡permítenos trabajar contigo para vender tu propiedad al mejor precio posible!</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home-shield" width="500" height="500" viewBox="0 0 24 24" stroke-width="1.5" stroke="#410404" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h1.341" />
+  <path d="M19.682 10.682l-7.682 -7.682l-9 9h2v7a2 2 0 0 0 2 2h5" />
+  <path d="M22 16c0 4 -2.5 6 -3.5 6s-3.5 -2 -3.5 -6c1 0 2.5 -.5 3.5 -1.5c1 1 2.5 1.5 3.5 1.5z" />
+</svg>
       </div>
     </div>
 

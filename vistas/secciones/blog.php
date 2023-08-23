@@ -130,7 +130,7 @@
       </div>
 
       <div class="p-4">
-        <	<div>
+        	<div>
 
 <h4>Etiquetas</h4>
 
@@ -151,7 +151,7 @@
       </div>
 
       <div class="p-4">
-        <h4 class="font-italic">Elsewhere</h4>
+        <h4 class="font-italic">Redes</h4>
         <?php
     
     $redesSociales = json_decode($landingPage["redes_sociales"], true);
@@ -160,7 +160,7 @@
     foreach ($redesSociales as $key => $value){
 
          echo'
-               <li class="ftco-animate text-primary"><a href="'.$value["url"].'"><span class="'.$value["icono"].'"></span></a>'.$value["red"].'</li>';
+               <li class="ftco-animate"><a href="'.$value["url"].'"><span class="'.$value["icono"].'"></span></a>'.$value["red"].'</li>';
           }
    ?>
       </div>
