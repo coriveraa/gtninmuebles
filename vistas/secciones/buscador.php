@@ -1,5 +1,6 @@
 
 
+
   <!--********************************************************************** 
                                     SECCION DE BUSQUEDA 
       *********************************************************************-->
@@ -18,12 +19,17 @@
   <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
   <path d="M21 21l-6 -6" />
 </svg></span>  -->
-                                                      <input type="search" class="form-control form-control-lg buscador" placeholder="" value="">
+                                                      <input type="text" class="form-control buscador" placeholder="" value="">
                                                       <div class="input-group-append">
-                                                          
-                                                            <button type="submit" class="btn btn-lg btn-default">
+                                                            <span class="input-group-text bg-ligth border-0" style="cursor:pointer">
+
+                                                              <i class="fas fa-search buscar"></i>
+
+                                                            </span>
+                                                               
+                                                            <!-- <button type="submit" class="btn btn-lg btn-default">
                                                                 <i class="fa fa-search"></i>
-                                                            </button>
+                                                            </button> -->
                                                         </div>
                                                   </div>
                                        
